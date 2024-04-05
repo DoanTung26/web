@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dashboard</title>
+    <style>
+        .container {
+    max-width: 1200px; /* Giới hạn chiều rộng của container */
+    margin: 0 auto; /* Căn giữa container */
+    padding: 20px; /* Khoảng cách từ nội dung đến biên container */
+}
+
+.row {
+    display: flex; /* Sử dụng flexbox để căn chỉnh các cột */
+}
+
+.col-md-6 {
+    width: 50%; /* Độ rộng của mỗi cột là 50% */
+    padding: 0 15px; /* Khoảng cách giữa các cột */
+    box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+}
+
+.functionalities {
+    background-color: #f9f9f9; /* Màu nền của khối chức năng */
+    padding: 20px; /* Khoảng cách từ nội dung đến biên của khối */
+    border-radius: 5px; /* Bo góc của khối */
+}
+
+.functionalities h2 {
+    margin-top: 0; /* Loại bỏ khoảng trắng trên đầu tiêu đề */
+}
+
+.functionalities ul {
+    list-style-type: none; /* Loại bỏ chấm tròn của danh sách */
+    padding: 0; /* Loại bỏ padding của danh sách */
+}
+
+.functionalities ul li {
+    margin-bottom: 10px; /* Khoảng cách giữa các mục danh sách */
+}
+
+.functionalities ul li a {
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    color: #333; /* Màu chữ của liên kết */
+    display: block; /* Biến liên kết thành block để nó chiếm toàn bộ chiều rộng của mục */
+}
+
+.functionalities ul li a:hover {
+    color: #555; /* Màu chữ của liên kết khi di chuột qua */
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+            <div class="col-md-6">
+                <!-- Block for functionalities -->
+                <div class="functionalities">
+                    <h2>Functionalities</h2>
+                    <ul>
+                        <li><a href="#view-schedule">View Schedule</a></li>
+                        <li><a href="#class-timetable">Class Timetable</a></li>
+                        <li><a href="#exam-schedule">Exam Schedule</a></li>
+                        <li><a href="#course-fee">Course Fee</a></li>
+                        <li><a href="#attendance-report">Attendance Report</a></li>
+                        <li><a href="#mark-report">Mark Report</a></li>
+                        <li><a href="#academic-report">Academic Report</a></li>
+                        <li><a href="#curriculum">Curriculum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Block for image -->
+                <img src="https://www.caodangvietmy.edu.vn/wp-content/uploads/2019/03/chuong-trinh-btec-la-gi-1024x570.png" alt="School Image" class="img-fluid">
+            </div>
+    </div>
+    
+</body>
+</html>
